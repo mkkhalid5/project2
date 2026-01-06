@@ -9,7 +9,7 @@ body{
 }
 
 /*margin for section*/
-#pillars ,#vision{
+#pillars ,#vision ,#opinion{
     margin-top: 80px;
 }
 
@@ -192,4 +192,14 @@ main{
     position: absolute;
     top: 23px;
     left: 13px;
+}
+
+#opinion h2{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+#opinion form{
+    padding: 32px;
 }
