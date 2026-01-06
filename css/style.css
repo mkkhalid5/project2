@@ -3,20 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-/**/
+body{
+    background-color: #f5f5f5;
+}
+/*Initial style use anywhere*/
+/*default font*/
 .fira-sans-thin {
   font-family: "Fira Sans", sans-serif;
   font-weight: 100;
   font-style: normal;
 }
-
-
-/**/
-header .header-container{
+/*default button style*/
+.btn{
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #006A50;
+    border: none;
+    border-radius: 8px;
+    margin: 24px 0;
+}
+.container{
     width: 80%;
     max-width: 1280px;
     margin: 0 auto;
+}
+
+
+/*Header styling start*/
+header .header-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,24 +43,15 @@ header .header-container h1{
     color: #0E0E0E;
 }
 header .header-container button{
-    padding: 15px 30px;
-    font-weight: 600;
-    font-size: 18px;
-    color: #006A50;
     border: 1px solid #006A50;
-    border-radius: 8px;
-    margin: 24px 0;
 }
 
-/*main part*/
-/*banner*/
+/*main part start*/
+/*banner-hero section start*/
 main{
     margin-top: 20px;
 }
 #banner{
-    width: 80%;
-    max-width: 1280px;
-    margin: 0 auto;
     background-color: #C6E4D6;
     border-radius: 24px;
     padding: 80px 60px;
@@ -67,10 +73,50 @@ main{
 }
 #banner .banner-detail button{
     background-color: #006A50;
-    border-radius: 8px;
-    padding: 17px 34px;
-    border: none;
     color: white;
-    font-weight: 600;
-    font-size: 18px;
+}
+/*banner-hero section end*/
+
+/*pillars of bangladesh*/
+.pillars-of-bd-parent{
+    margin-top: 80px;
+}
+
+.pillars-tittle{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 32px;
+}
+
+.pillars-of-bd-parent .card-parent{
+    display: flex;
+    gap: 24px;
+}
+
+.pillars-of-bd-parent .card-parent .card{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: white;
+}
+.pillars-of-bd-parent .card-parent .card img{
+    margin-bottom: 24px;
+    max-width: 64px;
+}
+.pillars-of-bd-parent .card-parent .card h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.pillars-of-bd-parent .card-parent .card p{
+    font-size: 16px;
+    margin-bottom: 12px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
 }
