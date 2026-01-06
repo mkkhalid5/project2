@@ -2,17 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
 }
 body{
     background-color: #f5f5f5;
 }
 /*Initial style use anywhere*/
-/*default font*/
-.fira-sans-thin {
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
+
 /*default button style*/
 .btn{
     padding: 15px 30px;
