@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**/
+.fira-sans-thin {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+/**/
+header .header-container{
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header-container h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: #0E0E0E;
+}
+header .header-container button{
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    margin: 24px 0;
+}
+
+/*main part*/
+/*banner*/
+main{
+    margin-top: 20px;
+}
+#banner{
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+#banner .banner-detail h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+}
+#banner .banner-detail h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+#banner .banner-detail button{
+    background-color: #006A50;
+    border-radius: 8px;
+    padding: 17px 34px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
