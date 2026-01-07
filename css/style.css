@@ -9,7 +9,7 @@ body{
 }
 
 /*margin for section*/
-#pillars ,#vision ,#opinion{
+#pillars ,#vision ,#opinion,#news{
     margin-top: 80px;
 }
 
@@ -194,7 +194,7 @@ main{
     left: 13px;
 }
 
-#opinion h2{
+#opinion .form-tittle{
     color: #0E0E0E;
     font-size: 40px;
     font-weight: 700;
@@ -202,4 +202,102 @@ main{
 }
 #opinion form{
     padding: 32px;
+}
+#opinion form .form-header{
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+    background-color: #C6E4D6;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+#opinion form .form-header h2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
+
+#opinion form .form-question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding-left: 24px;
+}
+#opinion form .form-question p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
+#opinion form .form-question .select{
+    border-left: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 24px;
+}
+#opinion form .form-question .select .select-option{
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #C6E4D6;
+    padding-right: 10px;
+    border: 1px solid #0E0E0E;
+}
+#opinion form .form-question .select select{
+    border: none;
+    padding: 0 10px 0 0;
+    background-color: transparent;
+}
+
+
+#news h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+#news p{
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+#news .news-card{
+    background-color: white;
+    border-radius: 24px;
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 24px;
+}
+#news .news-card .news-card-image img{
+    border-radius: 24px;
+    max-width: 408px;
+}
+#news .news-card .news-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+#news .news-card .news-card-content h2{
+    font-size: 32px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+#news .news-card .news-card-content img{
+    margin-bottom: 12px;
+    max-width: 120px;
+}
+#news .news-card .news-card-content p{
+    font-size: 16px;
+    font-weight: 400;
+    flex: 1;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 12px;
+}
+#news .news-card .news-card-content .btn{
+    margin-bottom: 0;
+}
+#news .news-card:nth-child(4){
+    flex-direction: row-reverse;
 }
